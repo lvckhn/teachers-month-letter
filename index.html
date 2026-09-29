@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    
+    <h1><center><p>Happy Teacher's day, Ma'am Mari!</p></center></h1>
+
+    <center><img src="pic.jpeg" alt="Teacher's Day" width="300"></center>
+
+    <center><button id="showBtn" onclick="showMessage()">Click to see the message</button></center>
+
+    <center><audio id="bgAudio" src="Hall of Fame.mp3" controls style="display: none;"></audio></center>
+
+    <div id="message" style="display: none;">
+    <center><h3><p>Thank you so much for teaching us how to code easily, i learned so much from you po
+        and i've been motivated and more confident to learn how to code since you don't make it
+        seem like it's hard to learn.
+        Thank you so much for sharing us your knowledge, ma'am! I hope you become our professor again
+        this coming 2nd Semester, 
+        because we didn't get to meet you often because of weather  conditions.</p> 
+        <p> I wish you a good health, ma'am Mari! so you'll be able
+        to teach more students like me in the future, and shape us into one of the few skilled programmers.
+        Thank you to all of our teachers as well for guiding us throughout the whole 1st Semester, and for not giving up
+        on us despite of us being so stubborn and noisy. We thank you all for the efforts you do every school year and for having a lot of patience
+        for us students.</p> <p> We appreciate all of your hardwork and Happy Teacher's Day to all of the hardworking Teachers! <3333 </p></h3></center>
+    </div>
+
+    <script>
+        function showMessage() {
+            var audio = document.getElementById("bgAudio");
+            document.getElementById("message").style.display = "block";
+            document.getElementById("showBtn").style.display = "none";
+            audio.style.display = "inline-block";
+            audio.play().catch(function () {});
+        }
+    </script>
+
+</body>
+</html>
