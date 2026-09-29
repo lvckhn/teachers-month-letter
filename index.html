@@ -7,27 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body> 
+
+    <div class="hearts">
+        <span style="left: 8%;  animation-delay: 0s;">💜</span>
+        <span style="left: 22%; animation-delay: 2s;">✨</span>
+        <span style="left: 36%; animation-delay: 4s;">💜</span>
+        <span style="left: 50%; animation-delay: 1s;">🌸</span>
+        <span style="left: 64%; animation-delay: 3s;">💜</span>
+        <span style="left: 78%; animation-delay: 5s;">✨</span>
+        <span style="left: 90%; animation-delay: 2.5s;">🌸</span>
+    </div>
+
+    <div class="container">
     
-    <h1><center><p>Happy Teacher's day, Ma'am Mari!</p></center></h1>
+        <h1><center><p>Happy Teacher's day, Ma'am Mari!</p></center></h1>
 
-    <center><img src="pic.jpeg" alt="Teacher's Day" width="300"></center>
+        <!-- IMAGE: replace "image.jpg" with your file -->
+        <center><img src="image.jpg" alt="Teacher's Day"></center>
 
-    <center><button id="showBtn" onclick="showMessage()">Click to see the message</button></center>
+        <center><button id="showBtn" onclick="showMessage()">Click to see the message</button></center>
 
-    <center><audio id="bgAudio" src="Hall of Fame.mp3" controls style="display: none;"></audio></center>
+        <!-- AUDIO: replace "audio.mp3" with your file -->
+        <center><audio id="bgAudio" src="audio.mp3" controls style="display: none;"></audio></center>
 
-    <div id="message" style="display: none;">
-    <center><h3><p>Thank you so much for teaching us how to code easily, i learned so much from you po
-        and i've been motivated and more confident to learn how to code since you don't make it
-        seem like it's hard to learn.
-        Thank you so much for sharing us your knowledge, ma'am! I hope you become our professor again
-        this coming 2nd Semester, 
-        because we didn't get to meet you often because of weather  conditions.</p> 
-        <p> I wish you a good health, ma'am Mari! so you'll be able
-        to teach more students like me in the future, and shape us into one of the few skilled programmers.
-        Thank you to all of our teachers as well for guiding us throughout the whole 1st Semester, and for not giving up
-        on us despite of us being so stubborn and noisy. We thank you all for the efforts you do every school year and for having a lot of patience
-        for us students.</p> <p> We appreciate all of your hardwork and Happy Teacher's Day to all of the hardworking Teachers! <3333 </p></h3></center>
+        <div id="message" style="display: none;">
+        <center><h3><p>Thank you so much for teaching us how to code easily, i learned so much from you po
+            and i've been motivated and more confident to learn how to code since you don't make it
+            seem like it's hard to learn.
+            Thank you so much for sharing us your knowledge, ma'am! I hope you become our professor again
+            this coming 2nd Semester, 
+            because we didn't have a class with you often because of weather  conditions.</p> 
+            <p> I wish you a good health, ma'am Mari! so you'll be able
+            to teach more students like me in the future and shape us into one of the few skilled programmers.
+            Thank you to all of our teachers as well for guiding us throughout the whole 1st Semester and for not giving up
+            on us despite of us being so stubborn and noisy. We thank you all for the efforts you do every school year and for having a lot of patience
+            for the students.</p> <p> We apppreciate all of your hardwork and Happy Teacher's Day to all of the Hardworking Teachers! <3333 </p></h3></center>
+        </div>
+
     </div>
 
     <script>
