@@ -36,14 +36,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.6);
     box-shadow: 0 8px 20px rgba(155, 143, 233, 0.35);
     text-shadow: 2px 2px 0 rgba(155, 143, 233, 0.4);
-}
 
-h1 p::before {
-    content: "✨ ";
-}
-
-h1 p::after {
-    content: " ✨";
 }
 
 img {
